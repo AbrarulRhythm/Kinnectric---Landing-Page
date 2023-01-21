@@ -1,1 +1,1 @@
-# Kinnectric---Landing-Page
+# Kinnectric-Landing Page
