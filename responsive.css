@@ -1,0 +1,79 @@
+@media screen and (max-width:770px) {
+
+    /* Preloader starts */
+    #Preloader {
+        background-size: 45%;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+
+    /* ------------header-styling-------------- */
+    .logo h3 {
+        text-align: center;
+    }
+
+    /* --------------Home-styling-------------- */
+
+    .home-left-col {
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+
+    .home-right-col {
+        flex-basis: 100%;
+    }
+
+    .home-right-col img {
+        width: 100%;
+        box-shadow: rgb(31 63 183) -1px 0px 12px 5px;
+    }
+
+    .home-left-col h1 {
+        font-size: 50px;
+    }
+
+    /* --------------Kinnectric-Desc----------- */
+    .kinnectric-desc h3 {
+        font-size: 28px;
+    }
+
+    .kinnectric-desc p {
+        text-align: justify;
+    }
+
+    /* --------------Connect Friends----------- */
+    .left-col {
+        flex-basis: 100%;
+    }
+
+    .right-col {
+        flex-basis: 100%;
+    }
+
+    .common-img img {
+        width: 100%;
+    }
+
+    /* -----------------Footer----------------- */
+    .footer-row {
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-left-col {
+        flex-basis: 100%;
+    }
+
+    .footer-logo h3 {
+        font-size: 25px;
+    }
+
+    .footer-right-col {
+        flex-basis: 100%;
+    }
+}

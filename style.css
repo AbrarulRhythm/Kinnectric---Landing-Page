@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    background: rgb(16, 23, 40);
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 90px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(16, 23, 40);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(80deg, #9D40F0, #eb2c65);
+    border-radius: 15px;
+    transition: .3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+::selection {
+    background: #9641FF;
+    color: #fff;
+}
+
+/* Preloader starts */
+#Preloader {
+    background: #ffff url(img/preloder.gif)no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+/*
+========================================
+------------header-styling--------------
+========================================
+*/
+.logo {
+    padding: 20px 0;
+}
+
+.logo h3 {
+    font-size: 27px;
+}
+
+/*
+========================================
+--------------Home-styling--------------
+========================================
+*/
+.home-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.home-left-col {
+    flex-basis: 50%;
+}
+
+.home-right-col {
+    flex-basis: 50%;
+}
+
+.home-right-col img {
+    width: 80%;
+    border-radius: 45px;
+    box-shadow: rgb(31, 63, 183) -1px 0px 20px 19px;
+}
+
+.home-left-col h1 {
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+
+.comon-btn {
+    font-size: 16px;
+    color: #101728;
+    font-weight: 900;
+    background: linear-gradient(80deg, #9D40F0, #eb2c65);
+    padding: 14px 35px;
+    border-radius: 30px;
+}
+
+/*
+========================================
+--------------Kinnectric-Desc-----------
+========================================
+*/
+.kinnectric-desc {
+    text-align: center;
+}
+
+.kinnectric-desc h3 {
+    color: #fff;
+    font-size: 35px;
+    max-width: 470px;
+    margin: auto;
+}
+
+.kinnectric-desc p {
+    color: #fff;
+    max-width: 520px;
+    margin: auto;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.kinnectric-desc h3 span {
+    color: #9340FF;
+}
+
+/*
+========================================
+--------------Connect Friends-----------
+========================================
+*/
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.left-col {
+    flex-basis: 50%;
+}
+
+.right-col {
+    flex-basis: 50%;
+}
+
+.common-img img {
+    width: 80%;
+    border-radius: 40px;
+}
+
+.common-text h3 {
+    font-size: 35px;
+    color: #9340FF;
+    margin-bottom: 25px;
+}
+
+.common-text p {
+    color: #fff;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+/*
+========================================
+-----------------Footer-----------------
+========================================
+*/
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left-col {
+    flex-basis: 50%;
+}
+
+.footer-logo h3 {
+    font-size: 25px;
+}
+
+.footer-right-col {
+    flex-basis: 50%;
+}
+
+.footer-right-col h3 {
+    color: #9340FF;
+    font-size: 35px;
+    margin-bottom: 14px;
+}
+
+.connect-item span {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.social a {
+    font-size: 22px;
+    margin-right: 14px;
+}
+
+.social {
+    margin-top: 27px;
+}
+
+footer {
+    padding: 20px 0;
+}
